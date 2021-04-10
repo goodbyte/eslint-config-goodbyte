@@ -1,0 +1,54 @@
+{
+  "name": "eslint-config-goodbyte",
+  "version": "1.0.0",
+  "description": "ESLint shareable config, based on eslint:recommended, Standard and Google",
+  "repository": "goodbyte/eslint-config-goodbyte",
+  "bugs": {
+    "url": "https://github.com/goodbyte/eslint-config-goodbyte/issues"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.12"
+  },
+  "scripts": {
+    "test": "eslint *.js --config=index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "goodbyte",
+    "standard",
+    "google",
+    "code",
+    "quality",
+    "style",
+    "lint",
+    "linter",
+    "jscs",
+    "jshint",
+    "jslint",
+    "eslint",
+    "validate",
+    "code style",
+    "strict",
+    "check",
+    "checker",
+    "verify",
+    "enforce",
+    "hint"
+  ],
+  "author": {
+    "name": "goodbyte",
+    "email": "goodbyte@vera.com.uy"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.15.0"
+  }
+}
